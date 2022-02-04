@@ -1,0 +1,46 @@
+.random {
+    margin: 2rem auto;
+    position: relative;
+}
+
+.random-wrapper {
+    width: 100%;
+    height: auto;
+    background: var(--bs-gray-700);
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.random-planet__img {
+    width: 220px;
+    height: 220px;
+    border-radius: 30px;
+}
+
+
+
+
+
+.random-list {
+    flex-direction: column;
+    list-style: none;
+    padding-top: 1rem;
+}
+
+.random-list__item {
+    padding: 1rem 0 0 2rem;
+    display: flex;
+    min-width: 220px;
+    justify-content: space-between;
+    border-top: 1px solid black;
+}
+
+.random-list__title-name {
+    font-size: 1.4rem;
+}
+
+.random-list__item-header {
+    font-size: 1rem;
+}

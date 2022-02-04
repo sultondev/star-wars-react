@@ -1,0 +1,115 @@
+
+// ---- display: flex; justify-content: space-between; align-items: center;
+
+@mixin flex-between-center()
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+@mixin flex-between-start()
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+
+@mixin flex-between-end()
+    display: flex
+    justify-content: space-between
+    align-items: flex-end
+
+// ---- display: flex; justify-content: space-around; align-items: center;
+
+@mixin flex-around-center()
+    display: flex
+    justify-content: space-around
+    align-items: center
+
+@mixin flex-around-start()
+    display: flex
+    justify-content: space-around
+    align-items: flex-start
+
+@mixin flex-around-end()
+    display: flex
+    justify-content: space-around
+    align-items: flex-end
+
+// ---- display: flex; justify-content: center; align-items: center;
+
+@mixin flex-center-start()
+    display: flex
+    justify-content: center
+    align-items: flex-start
+
+@mixin flex-center-center()
+    display: flex
+    justify-content: center
+    align-items: center
+
+@mixin flex-center-end()
+    display: flex
+    justify-content: center
+    align-items: flex-end
+// start
+@mixin flex-start-start()
+    display: flex
+    justify-content: flex-start
+    align-items: flex-start
+
+@mixin flex-start-center()
+    display: flex
+    justify-content: flex-start
+    align-items: center
+
+//End
+@mixin flex-end-center()
+    display: flex
+    justify-content: flex-end
+    align-items: center
+
+// Buttons
+
+
+@mixin flex-between-center-column()
+    display: flex
+    justify-content: space-between
+    align-items: center
+    flex-direction: column
+
+
+
+@mixin flex-between-start-column()
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    flex-direction: column
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+@mixin default-btn()
+    border: none
+    background: none
+    outline: none
+
+@mixin default-ul()
+    list-style: none
+
+@mixin default-input-text()
+    background: none
+    border: none
+    
+
+
+
+@mixin flex($justify-content, $align-items)
+    display: flex
+    justify-content: $justify-content
+    align-items: $align-items

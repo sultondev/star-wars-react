@@ -1,0 +1,33 @@
+.item-list 
+    flex-direction: column
+    background: var(--bs-gray-700)
+    list-style: none
+    width: 36%
+    padding: 0
+    border-radius: 10px
+    height: fit-content
+    position: relative
+
+
+
+.item-list__item 
+    border: none
+    padding: 1rem
+    border: 0.1px solid var(--bs-gray)
+    cursor: pointer
+    display: flex
+    justify-content: space-between
+    &:hover 
+        background: var(--bs-gray-dark)
+    &:last-child 
+        border-radius: 0 0 10px 10px
+    &:first-child 
+        border-radius: 10px 10px 0 0
+    &-name
+        flex-grow: 0.8
+    &-gender, &-birthyear, &-diameter, &-rotationperiod
+        color: #c7c7c7
+
+@media (max-width: 1000px) 
+    .item-list 
+        width: 100%
